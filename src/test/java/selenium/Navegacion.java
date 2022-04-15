@@ -20,7 +20,13 @@ public class Navegacion {
         //driver.navigate().to("https://selenium.dev");
 
         //Retroceder en el navegador
-        driver.navigate().back();
+        //driver.navigate().back();
+
+        //Proxima navegador
+        //driver.navigate().forward();
+
+        //Refrescar navegador
+        driver.navigate().refresh();
 
         //Cerrar navegador
         //driver.quit();
