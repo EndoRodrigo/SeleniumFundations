@@ -26,7 +26,7 @@ public class Alertas {
         driver.get("https://www.selenium.dev/documentation/webdriver/browser/alerts/");
 
         //Click en el testlink para mostrar la alerta
-        driver.findElement(By.linkText("See an example alert")).click();
+        driver.findElement(By.linkText("See a sample prompt")).click();
 
         //Esperar a que se muestre la alerta y guardarla en una variable
         Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
@@ -39,7 +39,16 @@ public class Alertas {
         String text = alert.getText();
         System.out.println(text);
 
+        //Escribe tu mensaje
+        alert.sendKeys("Selenium");
+
         //Presione el botón Aceptar
         alert.accept();
+
+        //Presione el botón cancelar
+        //alert.dismiss();
+
+        //Cerrar navegador
+        driver.quit();
     }
 }
