@@ -14,12 +14,15 @@ public class Navegacion {
         driver.manage().window().maximize();
 
         //Abrir navegador forma corta
-        //driver.get("https://selenium.dev");
+        driver.get("https://selenium.dev");
 
         //Abrir navegador forma larga
-        driver.navigate().to("https://selenium.dev");
+        //driver.navigate().to("https://selenium.dev");
+
+        //Retroceder en el navegador
+        driver.navigate().back();
 
         //Cerrar navegador
-        driver.quit();
+        //driver.quit();
     }
 }
