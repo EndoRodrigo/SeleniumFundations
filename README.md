@@ -21,11 +21,10 @@ Framework: Selenium
 
 ### Clonar proyecto 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+_Para clonar el proyecto ejecute el siguiente comando el la consola de git para descargar en su maquina local_
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+cd C:\Program Files 
+git clone https://github.com/EndoRodrigo/SeleniumFundations.git
 
 ```
